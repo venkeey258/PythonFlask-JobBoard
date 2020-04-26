@@ -7,8 +7,10 @@
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
   </head>
   <body>
+  {% from '_macros.html' import show_job, show_jobs with context %}
     <div class="container top">
       <div class="content">
+
         {% block content %}
         {% endblock %}
       </div>
